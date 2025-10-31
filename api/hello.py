@@ -2,6 +2,6 @@ def handler(request):
     return {
         "statusCode": 200,
         "headers": {"Content-Type": "text/plain"},
-        "body": "Hello from Python!"
+        "body": str(type(handler))
     }
 
