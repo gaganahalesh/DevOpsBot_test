@@ -1,9 +1,7 @@
-import json
-
 def handler(request):
-    body = {"message": "Hello, World!"}
+    # This is the simplest working Vercel Python handler
     return {
         "statusCode": 200,
-        "headers": {"Content-Type": "application/json"},
-        "body": json.dumps(body)
+        "headers": {"Content-Type": "text/plain"},
+        "body": "Hello from Python!"
     }
