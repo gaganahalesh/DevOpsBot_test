@@ -14,7 +14,7 @@
   ],
   "functions": {
     "api/hello.py": {
-      "runtime": "python@3.9"
+      "runtime": "@vercel/python@3.9"
     }
   },
   "env": {
