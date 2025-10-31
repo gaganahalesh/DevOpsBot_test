@@ -1,19 +1,10 @@
 {
-  "version": 2,
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/api/hello.py"
-    }
-  ],
   "functions": {
-    "api/hello.py": {
+    "api/*.py": {
       "maxDuration": 30,
       "memory": 1024
     }
-  },
-  "env": {
-    "PYTHON_VERSION": "3.9"
   }
 }
+
 
