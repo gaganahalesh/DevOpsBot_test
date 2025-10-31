@@ -1,0 +1,11 @@
+# Core dependencies for Vercel deployment
+requests>=2.28.0
+pandas>=1.5.0
+numpy>=1.21.0
+openpyxl>=3.0.9
+
+# Optional: Uncomment for full ML functionality (may exceed Vercel limits)
+# sentence-transformers>=2.2.0
+# faiss-cpu>=1.7.0
+# ollama>=0.1.7
+# pymysql>=1.0.2

@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "api/hello.py", 
-      "use": "@vercel/python"
-    }
-  ],
   "routes": [
     {
       "src": "/(.*)",
@@ -14,7 +8,9 @@
   ],
   "functions": {
     "api/hello.py": {
-      "runtime": "@vercel/python@3.9"
+      "runtime": "@vercel/python@3.9",
+      "maxDuration": 30,
+      "memory": 1024
     }
   },
   "env": {
