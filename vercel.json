@@ -3,7 +3,7 @@
     "api/**/*.py": {
       "maxDuration": 30,
       "memory": 1024,
-      "runtime": "python3.11"
+      "runtime": "vercel-python@3.11"
     }
   }
 }
